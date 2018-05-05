@@ -2,6 +2,6 @@
   (:require [clojure.test :refer :all]
             [corpus.core :refer :all]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
+(deftest corpus-test
+  (testing "Corpus"
     (is (= 0 1))))

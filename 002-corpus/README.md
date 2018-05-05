@@ -1,36 +1,35 @@
-# corpus
+## Description
+Write a console application that counts the frequencies of words that appear in a text document.
 
-FIXME: description
+## Input
+Your application should accept a single command-line argument containing the path of the text file.
 
-## Installation
+Example:
+```
+$ lein run 7oldsamr.txt
+```
 
-Download from http://example.com/FIXME.
+## Output
+Your application should produce a list of words and their frequencies _sorted in reverse numerical order_.
 
-## Usage
-
-FIXME: explanation
-
-    $ java -jar corpus-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
+Example:
+```
+36 the
+18 and
+14 to
+12 a
+10 in
+10 of
+10 old
+10 they
+7 for
+7 you
+6 it
+6 raiko
+6 robbers
+6 samurai
+6 seven
 ...
+```
 
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2017 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+In case of ties, any ordering is fine as long as it is deterministic (so that you can write proper tests!) To simplify things you may consider uppercase letters indistinguishable from lowercase letters.
